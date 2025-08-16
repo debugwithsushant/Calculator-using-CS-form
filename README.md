@@ -7,7 +7,7 @@ A simple C# Windows Forms calculator that performs basic arithmetic operations. 
 - Beginner-friendly code
 
 ## Screenshots
-*(Add images of your calculator UI)*
+![Calculator Screenshot](img/cal.png)
 
 ## How to Run
 Open `index.sln` in Visual Studio and run the project.

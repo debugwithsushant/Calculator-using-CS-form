@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace index
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
         double a, b, c;
         string op, exp;
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
         }
@@ -114,17 +114,17 @@ namespace index
             exp += op;
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void button13_Click_1(object sender, EventArgs e)
         {
             textBox1.Text += "7";
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void button14_Click_1(object sender, EventArgs e)
         {
             textBox1.Text += "8";
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void button15_Click_1(object sender, EventArgs e)
         {
             textBox1.Text += "9";
         }

@@ -1,6 +1,6 @@
 ﻿namespace index
 {
-    partial class Form1
+    partial class Calculator
     {
         /// <summary>
         /// Required designer variable.
@@ -220,6 +220,7 @@
             this.button13.TabIndex = 14;
             this.button13.Text = "7";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click_1);
             // 
             // button14
             // 
@@ -231,6 +232,7 @@
             this.button14.TabIndex = 15;
             this.button14.Text = "8";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click_1);
             // 
             // button15
             // 
@@ -242,6 +244,7 @@
             this.button15.TabIndex = 16;
             this.button15.Text = "9";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click_1);
             // 
             // button16
             // 
@@ -253,6 +256,7 @@
             this.button16.TabIndex = 17;
             this.button16.Text = "/";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -302,7 +306,7 @@
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // Form1
+            // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -330,7 +334,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
+            this.Name = "Calculator";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
