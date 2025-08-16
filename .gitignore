@@ -1,0 +1,13 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.pdb
+*.exe
+*.cache
+*.log
+
+# Ignore Copilot indices
+index/.vs/index/
